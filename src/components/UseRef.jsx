@@ -7,9 +7,9 @@ export const UseRef = ({ count, setCount }) => {
     const countRef = useRef();
 
     const handleClick =  () => {
-        const newConst = count + 1;
-        setCount(newConst);
-        countRef.current.textContent = `Count in now ${newConst}`;
+        const newCount = count + 1;
+        setCount(newCount);
+        countRef.current.textContent = `Count in now ${newCount}`;
     }
 
     const handleDoubleClick = () => {
@@ -31,7 +31,7 @@ export const UseRef = ({ count, setCount }) => {
   )
 }
 
-UseRef.PropTypes = {
+UseRef.propTypes = {
     count: PropTypes.number.isRequired,
     setCount: PropTypes.func.isRequired
 }

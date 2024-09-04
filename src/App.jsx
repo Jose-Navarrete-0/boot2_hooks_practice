@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { UseReducer } from './components/UseReducer';
 import { UseRef } from './components/UseRef';
+import { UseMemo } from './components/UseMemo';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
       </div>
       <UseReducer />
       <UseRef count={count}  setCount={setCount}/>
+      <UseMemo count={count}  setCount={setCount}/>
     </>
   )
 }
