@@ -40,3 +40,105 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Estilos para el boton de incremento */
+.increment-button {
+  background-color: rgb(230, 144, 238); /* color de fondo Coral claro */
+  color: white; /* color de texto blanco */
+  border: none; /* sin bordes */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 5px; /* Margen exterior */
+  cursor: pointer; /* Cursor tipo pointer */
+  font-size: 16px; /* Tamaño de la fuente */
+  transition: background-color 0.3s; /* Transicion suave para el color del fondo */
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre el boton de increment */
+.increment-button:hover {
+  background-color: rgb(128, 68, 0); /* Color de fondo marron oscuro */
+}
+
+.decrease-button {
+  background-color: lightcoral; /* color de fondo Coral claro */
+  color: white; /* color de texto blanco */
+  border: none; /* sin bordes */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 5px; /* Margen exterior */
+  cursor: pointer; /* Cursor tipo pointer */
+  font-size: 16px; /* Tamaño de la fuente */
+  transition: background-color 0.3s; /* Transicion suave para el color del fondo */
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre el boton de decrease */
+.decrease-button:hover {
+  background-color: rgb(19, 0, 128); /* Color de fondo a marron oscuro */
+
+}
+
+.reset-button {
+  background-color: rgb(18, 145, 204); /* color de fondo Coral claro */
+  color: white; /* color de texto blanco */
+  border: none; /* sin bordes */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 5px; /* Margen exterior */
+  cursor: pointer; /* Cursor tipo pointer */
+  font-size: 16px; /* Tamaño de la fuente */
+  transition: background-color 0.3s; /* Transicion suave para el color del fondo */
+}
+
+/* Cambio de color de fondo al pasar el mouse sobre el boton de reset */
+.reset-button:hover {
+  background-color: rgb(19, 0, 128); /* color de fondo marron oscuro */
+}
+
+.square-button {
+  background-color: rgb(18, 145, 204); /* color de fondo Coral claro */
+  color: white; /* color de texto blanco */
+  border: none; /* sin bordes */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 5px; /* Margen exterior */
+  cursor: pointer; /* Cursor tipo pointer */
+  font-size: 16px; /* Tamaño de la fuente */
+  transition: background-color 0.3s; /* Transicion suave para el color del fondo */
+
+}
+
+/* Cambio de color del fondo al pasar el mouse sobre el boton de decremento */
+.square-button:hover {
+  background-color: rgb(20, 169, 238); /* color de fondo */
+}
+
+
+.count-text {
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+  font-weight: bold; /* Texto en negrita */
+  color: darkgreen; /* Color de texto verde oscuro */
+}
+
+.text-input-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
+
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: -20px;
+}
+
+.display-text {
+  font-size: 18px;
+  color: #333;
+}
